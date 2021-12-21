@@ -16,7 +16,7 @@ namespace HTC.UnityPlugin.Vive3DSP
         }
         [SerializeField]
         private bool roomEffect = true;
-        private bool preRoomEffect = true;
+        private bool preRoomEffect = false;
         public RoomReverbPreset ReverbPreset
         {
             set { reverbPreset = value; }
